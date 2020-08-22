@@ -2,5 +2,5 @@
 title: Home
 menu:
   main:
-    weight: 0
+    weight: 100
 ---

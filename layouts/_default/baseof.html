@@ -9,6 +9,8 @@
     <br>
     {{ .Params.menu.main }}
     <hr>
+    index / weight / name / page
+    <hr>
     {{ range $k, $v := .Site.Menus.main }}
     {{ $k }} / {{ $v.Weight }} / {{ $v.Name }} / <a href="{{.URL}}">{{ $v.Page }}</a>
     <br>
